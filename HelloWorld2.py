@@ -24,3 +24,15 @@ print('''The pet shop owner said "No, no, 'e's' uh,... he's resting"''')
 
 #Printing tabs exercise
 print("Number 1\tThe Larch\nNumber 2\tThe Horse Chestnut")
+
+
+name = input("Please tell me your name: ")
+
+if name == "Tamás":
+    print("Helló gazdi")
+elif (name == "Zoé") or (name == 'Ginger'):
+    print("Tűnés lefelé a billentyűzetről!")
+elif name == "Vivi":
+    print("Szia szerelmem :3")
+else:
+    print("Hát te meg ki vagy?")
